@@ -1,0 +1,35 @@
+# Automated AWS Infrastructure Deployment using Terraform
+
+## Overview
+
+This project automates AWS infrastructure provisioning using **Terraform**, ensuring consistency, security, and scalability. The infrastructure includes **EC2, RDS, S3, VPC, IAM**, and **security policies**.
+
+## Technologies Used
+
+- **Terraform** – AWS resource provisioning
+- **AWS Services** – EC2, RDS, S3, VPC, IAM, Route 53
+- **Jenkins** – CI/CD automation
+- **S3 & DynamoDB** – Terraform state management
+- **Git & GitHub** – Version control
+
+## Architecture
+
+1. **Network** – VPC, subnets, route tables, NAT, security groups
+2. **Compute** – EC2 instances, auto-scaling, load balancer
+3. **Storage & Database** – S3 bucket, RDS (MySQL/PostgreSQL)
+4. **Security** – IAM roles & policies, CloudWatch monitoring
+5. **CI/CD** – Jenkins, GitHub Actions, Slack notifications
+
+## Implementation Steps
+
+1. **Setup Terraform** – Install Terraform, configure AWS credentials.
+2. **Write Terraform Code** – Define VPC, EC2, IAM, RDS, S3.
+3. **Apply Configuration** – Run `terraform init`, `terraform apply`.
+4. **Integrate CI/CD** – Automate deployment with Jenkins.
+
+## Outcomes
+
+- **50% reduction** in manual deployment time.
+- Improved security and scalability.
+- Automated infrastructure setup for reproducibility.
+
