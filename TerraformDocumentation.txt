@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project automates AWS infrastructure provisioning using **Terraform**, ensuring consistency, security, and scalability. The infrastructure includes **EC2, RDS, S3, VPC, IAM**, and **security policies**.
+This project automates AWS infrastructure provisioning using **Terraform**, ensuring consistency, security, and scalability. The infrastructure includes **EC2, RDS, S3, IAM**, and **security policies**.
 
 ## Technologies Used
 
